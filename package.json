@@ -1,0 +1,19 @@
+{
+  "name": "shellgpt",
+  "version": "1.0.0",
+  "description": "Natural language → shell command generator with Web UI and CLI",
+  "main": "server.js",
+  "bin": {
+    "shellgpt": "./cli/shellgpt.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
